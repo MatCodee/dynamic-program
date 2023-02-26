@@ -1,0 +1,14 @@
+Lo primero que tenemos que hacer:
+ 
+
+usaremos la implementacion  de estructuras de redes neuronales:
+redes generativas adversarias condicionales (cGANs).
+
+
+- Es generar el dataset de contenido, de videos de un tipo de transiciones y quiero que las 
+Aplique a un video sin editar.
+
+- Necesito definir los input de entrada y dalida para conversion del video
+Necesito crear un modelo que sea entrenado en base a videos de animaciones y pueda editar 
+el contenido del video de tal forma quer aprenda cuando deba realizar las transiciones
+de contenido.
