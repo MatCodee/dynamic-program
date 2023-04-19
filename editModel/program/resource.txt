@@ -1,0 +1,13 @@
+Recursos de Codigo:
+https://github.com/mabagheri/CGAN/blob/master/cgan_Keras.py
+https://keras.io/examples/generative/conditional_gan/
+
+
+
+Documentos:
+https://medium.com/@ma.bagheri/a-tutorial-on-conditional-generative-adversarial-nets-keras-implementation-694dcafa6282
+https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+https://developers.google.com/machine-learning/gan/gan_structure?hl=es-419
+https://www.tensorflow.org/tutorials/generative/dcgan?hl=es-419
+https://arxiv.org/pdf/1701.00160.pdf
+https://developers.google.com/machine-learning/advanced-courses?hl=es-419

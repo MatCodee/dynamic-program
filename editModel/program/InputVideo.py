@@ -5,10 +5,11 @@ Definirmos la conversiond e un video a una monton de imagenes
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('video.mp4')
-
 
 def reading_video():
+    cap = cv2.VideoCapture(cv2.CAP_V4L2)
+    cap.open("video.mp4")
+
     frames = []
     while True:
         ret, frame = cap.read()
@@ -16,6 +17,6 @@ def reading_video():
             break
         frames.append(frame)
 
-    video_array = np.array(frames)
-    return video_array
+    return np.array(frames)
+
 

@@ -1,9 +1,10 @@
-from InputVideo import reading_video
+from tensorflow.keras.layers import Input
+import cv2
 
+from cGANs import processInput
 
 def main():
-    reading_video()
-
+    processInput()
 
 if __name__ == '__main__':
     main()
